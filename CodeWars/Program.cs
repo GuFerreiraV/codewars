@@ -62,7 +62,7 @@ namespace CodeWars
                 Console.WriteLine("47. Twice As Old - 8 kyu - O(1)");
                 Console.WriteLine("48. Ookkk Language - 5 kyu - O(N)");
                 Console.WriteLine("49. Duplicate Encoder - 6 kyu - O(N)");
-                Console.WriteLine("50. Pick Peaks - 5 kyu - ");
+                Console.WriteLine("50. All that is open must be closed... - 5 kyu - O(N)");
                 Console.WriteLine("-------------------------------------------------");
                 Console.WriteLine(" 0. Sair");
                 Console.WriteLine("-------------------------------------------------");
@@ -338,9 +338,9 @@ namespace CodeWars
                         Console.WriteLine($"Resultado: {DuplicateEncoder.DuplicateEncode("Sass")}");
                         break;   
                     case "50":
-                        Console.WriteLine("Executando: Duplicate Encoder");
-                        Console.WriteLine("Input: Sass");
-                        Console.WriteLine($"Resultado: {DuplicateEncoder.DuplicateEncode("Sass")}");
+                        Console.WriteLine("Executando: All that is open must be closed...");
+                        Console.WriteLine("Input: (Isso é] um [teste) and ()[]");
+                        Console.WriteLine($"Resultado: {AllOpenMustClosed.IsBalanced("\"Sensei says -yes-!\"", "\"--\"")}");
                         break;      
                     case "0":
                         Console.WriteLine("Saindo...");
